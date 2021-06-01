@@ -174,7 +174,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text("Tic Tac Toe"),
+          title: new Center(
+            child: Text("Tic Tac Toe"),
+          ),
         ),
         body: new Column(
           mainAxisAlignment: MainAxisAlignment.start,
